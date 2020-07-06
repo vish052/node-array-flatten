@@ -1,37 +1,26 @@
-Installation
+# node-array-flatten
 
-In your npm supported project, run:
+The node-array-flatten method creates a new array with all sub-array elements concatenated into it.
 
-$ npm install node-array-flatten --save or npm i node-array-flatten
+## Installation
 
-About Package 
+Use the package manager [npm](https://www.npmjs.com/) to install node-array-flatten.
 
-A tiny utility to flatten arrays of arrays into a single array of non-arrays.
+```bash
+npm install node-array-flatten or npm i node-array-flatten
+```
 
+## Usage
 
-Usage
+```javascript
+var flatten = require('node-array-flatten');
 
-Example:
+flatten([1, [2, 3],[4, 5, 6]]) # returns [1,2,3,4,5,6]
+flatten([1, [2, 3],'',[4, 5, 6]]) # returns [1,2,3,4,5,6]
+```
 
-> var flatten = require('node-array-flatten');
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-// using ES6 modules
-
-import flatten from 'node-array-flatten';
-
-
-
-> flatten([1, [2, 3],'', [4, 5, 6], '',[7, [8, 9]], 10])
-
-Output : [ 1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  10 ]
-
-
+## License
+[MIT](https://github.com/vish052/node-array-flatten/blob/master/LICENSE)
