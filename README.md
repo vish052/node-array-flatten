@@ -9,24 +9,17 @@ About Package
 A tiny utility to flatten arrays of arrays into a single array of non-arrays.
 
 
-Basic Usage
+Usage
 
 Example:
 
 > var flatten = require('node-array-flatten');
 
-> flatten([1, [2, 3], [4, 5, 6], [7, [8, 9]], 10])
+// using ES6 modules
 
-Output : [ 1,
-  2,
-  3,
-  4,
-  5,
-  6,
-  7,
-  8,
-  9,
-  10 ]
+import flatten from 'node-array-flatten';
+
+
 
 > flatten([1, [2, 3],'', [4, 5, 6], '',[7, [8, 9]], 10])
 
