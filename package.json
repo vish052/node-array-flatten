@@ -1,7 +1,7 @@
 {
   "name": "node-array-flatten",
-  "version": "1.0.0",
-  "description": "The flatten method creates a new array with all sub-array elements concatenated into it.",
+  "version": "1.1.0",
+  "description": "A modern, efficient, and lightweight utility for flattening nested arrays in Node.js and JavaScript. Leverages native Array.prototype.flat() for optimal performance.",
   "main": "flatten.js",
   "scripts": {
     "test": "jest"
@@ -15,17 +15,29 @@
   "keywords": [
     "array",
     "flatten",
+    "flat",
+    "nested",
+    "utility",
+    "javascript",
+    "node",
     "array-flatten",
     "array-flat",
-    "flat array",
-    "javascript array flatten",
-    "javascript"
+    "array-utility",       
+    "list",                
+    "deep-flatten",        
+    "es2019",              
+    "es-next",             
+    "performance",         
+    "functional",          
+    "immutable",           
+    "collection",          
+    "transform"            
   ],
-  "licenses": [
-    {
-      "type": "MIT",
-      "url": "https://github.com/vish052/node-array-flatten/blob/master/LICENSE"
-    }
-  ],
-  "homepage": "https://github.com/vish052/node-array-flatten/blob/master/README.md"
+  "homepage": "https://github.com/vish052/node-array-flatten#readme",
+  "engines": {
+    "node": ">=12.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
 }
