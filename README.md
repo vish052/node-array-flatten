@@ -1,26 +1,15 @@
 # node-array-flatten
 
-The node-array-flatten method creates a new array with all sub-array elements concatenated into it.
+A modern, efficient, and lightweight utility for flattening nested arrays in Node.js and JavaScript environments. This package leverages the native `Array.prototype.flat()` method for optimal performance and simplicity, providing a robust solution for transforming multi-dimensional arrays into single-dimensional ones.
+
+## Features
+
+* **Optimal Performance:** Utilizes the highly optimized native `Array.prototype.flat()` for fast array flattening.
+* **Depth Control:** Supports flattening to a specified depth or completely flattening all nested arrays.
+* **Simple API:** Easy to use with a clear and intuitive function signature.
+* **Robust Input Validation:** Ensures the input is always an array, throwing an error for invalid types.
 
 ## Installation
 
-Use the package manager [npm](https://www.npmjs.com/) to install node-array-flatten.
-
 ```bash
-npm install node-array-flatten or npm i node-array-flatten
-```
-
-## Usage
-
-```javascript
-var flatten = require('node-array-flatten');
-
-flatten([1, [2, 3],[4, 5, 6]]) # returns [1,2,3,4,5,6]
-flatten([1, [2, 3],'',[4, 5, 6]]) # returns [1,2,3,4,5,6]
-```
-
-## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-[MIT](https://github.com/vish052/node-array-flatten/blob/master/LICENSE)
+npm install node-array-flatten
